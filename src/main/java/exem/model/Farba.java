@@ -1,6 +1,8 @@
 package exem.model;
 
-public class Farba {
+import java.io.Serializable;
+
+public class Farba implements Serializable {
     private String mark;
     private String color;
     private float consumption;

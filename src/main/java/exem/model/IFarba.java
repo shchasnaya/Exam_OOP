@@ -1,6 +1,8 @@
 package exem.model;
 
-public interface IFarba {
+import java.io.Serializable;
+
+public interface IFarba extends Serializable {
     double calcConsumption();
     double calcCost();
 }

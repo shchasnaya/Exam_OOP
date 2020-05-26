@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.io.Serializable;
 import java.util.Arrays;
 
-public class FarbaDirectory {
+public class FarbaDirectory implements Serializable {
     private Farba[] arr = new Farba[3];
     private int count = 0;
     {
